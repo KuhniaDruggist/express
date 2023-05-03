@@ -9,11 +9,11 @@
   "license": "MIT",
   "scripts": {
     "compile": "tsc -w",
-    "serve": "nodemon .\\dist\\src\\index.js\n",
-    "dev": "nodemon --inspect .\\dist\\src\\index.js\n",
+    "serve": "nodemon dist\\src\\index.js\n",
+    "dev": "nodemon --inspect dist\\src\\index.js\n",
     "test": "jest",
     "build": "tsc",
-    "start": "node .\\dist\\src\\index.js\n"
+    "start": "node dist\\src\\index.js\n"
   },
   "dependencies": {
     "@types/jest": "^29.5.0",
